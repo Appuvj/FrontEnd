@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test {
+            font-size: 25px;
+
+            text-shadow: 2px 2px violet;
+            width: 300px;
+            /* margin: auto; */
+            border: 3px solid;
+            box-shadow: 5px 5px 5px violet;
+        }
+
+        .child {
+            display: none;
+        }
+
+        .test:hover .child {
+            display: block;
+        }
+
+        .normalElement {
+            border: 5px solid;
+            width: 90px;
+            padding: 5px
+        }
+
+        .boxsizing {
+            border: 5px solid;
+            width: 90px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <div class="test"> HOVER ON ME
+            <div class="child">welcome you all in changepond</div>
+        </div>
+    </center>
+
+    <div class="normalElement">
+        hello friends
+    </div>
+
+    <div class="boxsizing"> hello friends</div>
+
+
+
+
+</body>
+
+</html>

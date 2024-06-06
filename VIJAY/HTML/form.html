@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1>FORM</h1>
+
+        <form method="post">
+
+            <div>
+                <label for="name">Enter your Name : </label>
+            <input type="text" name="fname" id="name" placeholder="enter your name" minlength="3" maxlength="20" pattern="^[a-zA-Z ]{3,20}$" required>
+
+            <!-- <input type="text" name="fname" id="name" placeholder="enter your name" pattern="^[a-zA-Z ]{3,20}$" required> -->
+                </div><br>
+
+
+                <div>
+                <label for="">password</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+
+
+            <div><br>
+            <label for="email"> email</label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            </div> <br>
+
+            <div>
+                <label for="contact">contact</label>
+                <input type="tel" name="contact" id="contact" pattern="^[0-9]{9,11}$">
+            </div><br>
+
+            <div>
+                <label for="dob">date of birth</label>
+                <input type="date" name="dob" id="dob">
+
+            </div><br>
+
+            <div>
+                <label for="age">age</label>
+                <input type="number" name="age" id="age" min="18" max="60">
+            </div><br>
+
+            <div>
+                <label for="time">time</label>
+                <input type="time" name="time" id="time">
+            </div><br>
+            <div>
+                <label for="gender"> gender : </label>
+                <input type="radio" name="gender" id="gender" value="male">male
+                <input type="radio" name="gender" id="gender" value="female">female
+                <input type="radio" name="gender" id="gender" value="others">others
+            </div><br>
+
+            <div>
+                <label for="edu">education : </label>
+                <input type="checkbox" name="edu" id="edu" value="SSLC">SSLC
+                <input type="checkbox" name="edu" id="edu" value="HSC">HSC
+                <input type="checkbox" name="edu" id="edu" value="UG">UG
+                <input type="checkbox" name="edu" id="edu" value="PG">PG
+            </div><br>
+
+            <div>
+                <label for="course">course : </label>
+               <select name="course" id="course">
+                <option value="">select your course</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="javascript">javascript</option>
+                <option value="angular">angular</option>
+                <option value="java">java</option>
+                <option value="sql">sql</option>
+               </select>
+            </div>
+
+            <br><button type="submit">submit</button>&nbsp;
+            <button type="reset">reset</button>
+
+
+        </form>
+
+
+
+</body>
+</html>

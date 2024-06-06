@@ -1,0 +1,25 @@
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    /* width: 200px; */
+    overflow: auto;
+}
+
+ li{
+    float: left; 
+ }
+.nav a{
+    color: crimson;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 7px 5px;
+}
+
+ .nav a:hover{
+    background-color: black;
+    font-weight: 800;
+}
