@@ -1,0 +1,59 @@
+7/6/24
+
+Bootstrap: 
+          - it is html,css and js framework
+          - which is use to make web app attractive,responsive and mobile friendly
+          - it provide inbuilt classes
+          - latest version of Bootstrap is Bootstrap5
+
+* there are 2 ways to use Bootstrap
+1. by using CDN(Content Delivery Network) link
+2. by downloading
+
+*official website Bootstrap is
+getbootstrap.com 
+
+*how to copy and use CDN link
+
+*heading classes: .display-1 to .display-6  we should use inside the class 
+
+.container : it will apply 15px margin from left and right of an element
+.container-fluid : it will take full width of screen
+
+note : above 2 classes is used to wrap element or Content
+
+*color classes : 
+.text-danger
+.text-warning
+.text-success
+
+background color :
+.bg-danger
+.bg-primary
+.bg-secondary
+
+*chaining of classes : we can write multiple classes together
+
+* table classes 
+*button classes
+*spinner-border
+*spinner-grow
+
+.rounded
+.rounder-circle
+.img-thumbnail
+
+*card classes
+
+*Bootstrap Grid : it is used to manage element layout according to different screen width
+                 - in bootstrap grid we uses 2 classes
+                 1. row class
+                 2. col class
+
+imp note : in bootstrap grid in single row we display multiple column with same size 12 only
+           if column size is greater than 12 then next column will start from new row
+
+
+
+                               
+
