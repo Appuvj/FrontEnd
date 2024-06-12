@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        // object datatype
+
+        let person={
+            id:1,
+            name:"vijay",
+            contact:1234,
+            single:true,
+            address:{
+                city:"chennai",
+                pin:1234,
+                state:"tamilnadu"
+            },
+            details:function(){
+                return `id:${this.id} name:${this.name} contact:${this.contact} single:${this.single}`;
+            }
+        }
+        document.write(`id:${person.id} name:${person.name} contact:${person.contact}<br>`)
+        document.write(`city:${person.address.city} state:${person.address.state} <br>`)
+        document.write(`Details:${person.details()}<br>`)
+
+        // how to manipulate object data 
+
+        let emp=[
+            
+                {id:1,name:"vijay",salary:50000,gender:"male",address:"chennai"},
+                {id:2,name:"prasanth",salary:50000,gender:"male",address:"chennai"},
+                {id:3,name:"sandeep",salary:50000,gender:"male",address:"chennai"},
+                {id:4,name:"sakthi",salary:50000,gender:"male",address:"chennai"},
+                {id:5,name:"safee",salary:50000,gender:"male",address:"chennai"}
+            
+        ]
+        for(let i=0;i<emp.length;i++){
+        document.write(`id:${emp[i].id}, name:${emp[i].name},salary:${emp[i].salary},gender:${emp[i].salary}, address:${emp[i].address}<br>` )
+        }
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

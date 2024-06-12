@@ -1,0 +1,15 @@
+form{
+    border: 2px solid red;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+
+}
+input[type=text]{
+       height: 20px;
+       width: 200px;
+       padding: 10px;
+}
