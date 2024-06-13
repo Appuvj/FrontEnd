@@ -30,7 +30,7 @@ syntax : let variableName:datatype;
 
 *oops
 
-1.class : it is collection of data menmber and menber function
+1.class : it is collection of data menmber and member function
           it is a template which we can reuse 
           to create a class we use class keyword
           class name must start with capital letter
